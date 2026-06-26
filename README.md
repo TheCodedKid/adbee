@@ -4,7 +4,7 @@ ADB-to-USB adapter. Connect a vintage Apple Desktop Bus keyboard/mouse to a
 modern host over USB. A Seeed XIAO ESP32-S3 reads the single-wire ADB bus and
 presents itself as a USB HID device.
 
-![adbee](name.png)
+![adbee](design/name.png)
 
 ## BOM
 
