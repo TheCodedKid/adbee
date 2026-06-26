@@ -1,0 +1,6 @@
+*.lck
+*-backups
+*.zip
+_autosave-*
+*~lock~*
+.easyeda_cache/

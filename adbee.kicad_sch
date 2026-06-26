@@ -2150,10 +2150,6 @@
 		(uuid "d54351ef-8896-4729-b161-a8b8dfcbfebb")
 	)
 	(no_connect
-		(at 82.55 110.49)
-		(uuid "d8bbf0d6-64f7-4c9c-b47e-eb335e822693")
-	)
-	(no_connect
 		(at 82.55 74.93)
 		(uuid "f0807f6f-df85-4816-8d73-e5a7364e34cb")
 	)
@@ -2446,6 +2442,16 @@
 			(type default)
 		)
 		(uuid "da2e1d5a-cc63-47eb-a78e-97d868766552")
+	)
+	(wire
+		(pts
+			(xy 82.55 110.49) (xy 82.55 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa0f096-d223-489b-a557-2e5c09ad967f")
 	)
 	(wire
 		(pts
@@ -2998,6 +3004,84 @@
 			(project "adbee"
 				(path "/9bf4d04e-e824-4715-b205-9db526d997dc"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 82.55 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77043de4-c2cf-4f4b-9003-0c10828ee2ce")
+		(property "Reference" "#PWR08"
+			(at 82.55 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 116.84 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a8566be-4133-43d5-8240-478f93419a4c")
+		)
+		(instances
+			(project "adbee"
+				(path "/9bf4d04e-e824-4715-b205-9db526d997dc"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
